@@ -3481,6 +3481,7 @@ input, select, textarea {
 				}
 
 		#banner.major {
+			background-image: url(/images/moff1.jpg);
 			height: 75vh;
 			min-height: 30em;
 			max-height: 50em;
