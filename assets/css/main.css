@@ -3602,7 +3602,6 @@ input, select, textarea {
 			}
 
 			#main > * > .inner {
-				background-image: url("../../images/07_1.jpg");
 				background-attachment: fixed;
 				background-position: center !important;
 				background-repeat: no-repeat;
