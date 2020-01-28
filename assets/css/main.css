@@ -3603,11 +3603,10 @@ input, select, textarea {
 
 			#main > * > .inner {
 				background-image: url(../../images/07_1.jpg);
-				background-size: 100% auto;
 				background-attachment: fixed;
 				background-position: center !important;
 				background-repeat: no-repeat;
-				background-size: cover;
+				background-size: auto 100%;
 				border-bottom: 0 !important;		
 				padding: 4em 3em 2em 3em ;
 				margin: 0 auto;
@@ -3617,10 +3616,10 @@ input, select, textarea {
 
 				@media screen and (max-width: 736px) {
 
-					#main > * > .inner {
+					/* #main > * > .inner {
 						padding: 3em 0 1em 0 ;
 						width: calc(100% - 3em);
-					}
+					} */
 
 				}
 
