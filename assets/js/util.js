@@ -430,7 +430,8 @@
 
 				});
 
-		// Events.
+		// Events. 
+		// send messageでkaku0825_watari@icloud.comにメールが飛ぶようにしたい
 			$this
 				.on('submit', function() {
 
