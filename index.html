@@ -14,7 +14,7 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
-
+		
 		<!-- Wrapper -->
 			<div id="wrapper">
 
@@ -157,23 +157,23 @@
 					<section id="contact">
 						<div class="inner">
 							<section>
-								<form method="post" action="#">
+								<form method="post" action="">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
+											<input type="text" name="subject" id="subject" placeholder="subject">
 										</div>
 										<div class="field half">
 											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
+											<input type="text" name="email" id="email" placeholder="email@example.com">
 										</div>
 										<div class="field">
 											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="6"></textarea>
+											<textarea name="message" id="message" placeholder="message" rows="6"></textarea>
 										</div>
 									</div>
 									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><button name="submit" id="submit" class="primary">Send</button></li>
 										<li><input type="reset" value="Clear" /></li>
 									</ul>
 								</form>
@@ -227,11 +227,12 @@
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="https://code.jquery.com/jquery-latest.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="assets/js/mail.js"></script>
 	</body>
 </html>
