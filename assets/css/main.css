@@ -1822,6 +1822,8 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
+
+
 		form > :last-child {
 			margin-bottom: 0;
 		}
@@ -1837,6 +1839,10 @@ input, select, textarea {
 			flex-wrap: wrap;
 			width: calc(100% + 3em);
 			margin: -1.5em 0 2em -1.5em;
+		}
+
+		form > .robocheck {
+			margin: 1.5em 0em 0em 1.5em;
 		}
 
 			form > .fields > .field {
