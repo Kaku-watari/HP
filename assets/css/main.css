@@ -1842,7 +1842,8 @@ input, select, textarea {
 		}
 
 		form > .robocheck {
-			margin: 1.5em 0em 0em 1.5em;
+			background-color: lavender;
+			margin: 1.5em 0em 1.5em 0em;
 		}
 
 			form > .fields > .field {
