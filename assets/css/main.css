@@ -3387,7 +3387,6 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/topbg.jfif");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3488,6 +3487,7 @@ input, select, textarea {
 				}
 
 		#banner.major {
+			background-image: url("../../images/topbg.jfif");
 			height: 75vh;
 			min-height: 30em;
 			max-height: 50em;
@@ -3496,13 +3496,20 @@ input, select, textarea {
 			#banner.major.alt {
 				opacity: 0.75;
 			}
-
+		
 		#banner.style1:after {
 			background-color: #6fc3df;
 		}
 
+		#banner.style2 {
+			background-image: url(../../images/topbg_1.jfif);
+			background-position: center;
+			background-size: auto 100%;
+			background-repeat: unset;
+		}
+
 		#banner.style2:after {
-			background-color: #8d82c4;
+			background-color: #543e3e;
 		}
 
 		#banner.style3:after {
