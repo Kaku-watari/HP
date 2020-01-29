@@ -11,8 +11,6 @@
 		<meta name="keywords" content="plant,plaant,HP,Home page,ホームページ,作成,制作,修正,コンサルティング,blockchain,ブロックチェーン,暗号通貨,仮想通貨,東京都,千代田区,ハリー,株式会社ハリー,取引所,クリエイター,エンジニア,デザイン,おしゃれ,オシャレ,お洒落,STO,STOプラットフォーム,security token,セキュリティトークン,スタートアップ,海外,外国籍,英語,SEO,MEO">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<script src="./assets/js/contact_form.js"></script>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -159,7 +157,7 @@
 					<section id="contact">
 						<div class="inner">
 							<section>
-								<!-- <form method="post" action="">
+								<form method="POST" data-netlify="true" action="POST">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
@@ -174,27 +172,14 @@
 											<textarea name="message" id="message" placeholder="message" rows="6"></textarea>
 										</div>
 									</div>
+									<div class="fields">
+										<div data-netlify-recaptcha="true"></div>
+									</div>
 									<ul class="actions">
 										<li><button name="submit" id="submit" class="primary">Send</button></li>
 										<li><input type="reset" value="Clear" /></li>
 									</ul>
-								</form> -->
-								<div id="mainform">
-									<!-- Required Div Starts Here -->
-									<form id="form">
-									<h3>Contact Form</h3>
-									<p id="returnmessage"></p>
-									<label>Name: <span>*</span></label>
-									<input type="text" id="name" placeholder="Name"/>
-									<label>Email: <span>*</span></label>
-									<input type="text" id="email" placeholder="Email"/>
-									<label>Contact No: <span>*</span></label>
-									<input type="text" id="contact" placeholder="10 digit Mobile no."/>
-									<label>Message:</label>
-									<textarea id="message" placeholder="Message......."></textarea>
-									<input type="button" id="submit" value="Send Message"/>
-									</form>
-								</div>
+								</form>
 							</section>
 							<section class="split">
 								<section>
